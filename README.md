@@ -5,10 +5,6 @@ Self Driving Vehicle Longitudinal and lateral Controller
 In this project, I will write and implement a controller for the CARLA simulator. The goal is to control the vehicle to follow a race track by navigating through preset waypoints. The vehicle needs to reach these waypoints at certain desired speeds, so both longitudinal and lateral control will be required and implemented.
 
 
-^^^^
-Interfacing functions with CARLA
-^^^^
-
 **Note:** All units are in SI (meters, seconds, radians), and CARLA works in the left-handed coordinate system (due to the Unreal Engine adopting the left-handed coordinate system). This generally shouldn't be an issue for this project since the controller operates in the x, y and yaw space. 
 
 ## 2 - Longitudinal control (throttle and brake)
@@ -72,6 +68,8 @@ The client will close once you reach the final waypoint, or after around 200 to 
 
 ### Video of the CARLA Simulation
 
-You can check the full video on youtube [here](https://www.youtube.com/watch?v=gDv56-uDu3I).
+Here's a Preview of the output:
 
 <img src="read_me_images/5.gif">
+
+You can check the full video on [Youtube here](https://www.youtube.com/watch?v=gDv56-uDu3I).
